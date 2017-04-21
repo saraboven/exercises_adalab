@@ -1,0 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
+.texto1{
+  margin: auto;
+  width: 86%;
+  max-width: 600px;
+  text-align: center;
+}

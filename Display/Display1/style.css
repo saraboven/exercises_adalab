@@ -1,0 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
+.info{display: inline;
+padding-right: 12px
+}
