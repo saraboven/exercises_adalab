@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 3%;
+  background: linear-gradient(white, lightblue);
+  width: 50%;
+}
+
+.content{
+  margin: 3% ;
+}
+
+.namesur{
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 3%;
+}
+
+.firstName{
+  margin-right: 2%;
+}
+
+.data{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.date{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+}
+
+.dates{
+  margin-right: 1%;
+  border-radius: 10px;
+}
+
+.questionBirth{
+  color: darkblue;
+  font-size: 12px;
+}
+
+.createAccount{
+  background-color: green;
+  border-radius: 10px;
+  font-size: 1.5em;
+  color: white;
+  padding: 2%;
+}
